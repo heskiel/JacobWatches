@@ -1,0 +1,55 @@
+.marq{
+    /* border-radius: 40px; */
+    /* background-color: darkcyan; */
+    color: black;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     gap: 10px;
+     transform: rotate(-10deg);
+     overflow-y: hidden;
+   }
+   .marq2{
+     height: 100px;
+     width: 1250px;
+     display: flex;
+     gap: 20px;
+   }
+   .marq2 h1{
+     font-size: 5rem;
+   }
+   .marque{
+    /* border-radius: 40px; */
+    /* background-color: darkcyan; */
+    color: black;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     gap: 10px;
+     transform: rotate(10deg);
+     overflow-y: hidden;
+   }
+   .marque2{
+     height: 100px;
+     width: 1250px;
+     display: flex;
+     gap: 20px;
+   }
+   .marque2 h1{
+     font-size: 5rem;
+   }
+   .image_wraper{
+    margin: 0px 30px;
+    overflow-x: hidden;
+    gap: 20px;
+  }
+  .imgSkill{
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+  }
+  .imgSkill2{
+    width: 230px;
+    height: 380px;
+    object-fit: contain;
+  }
