@@ -1,0 +1,46 @@
+.swiper {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+  }
+  .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 60%;
+    box-shadow: 0 15px 50px rgba(0, 0, 0, 0.2);
+    filter: blur(4px);
+  }
+  .swiper-slide-active{
+    filter: blur(0px);
+  
+  }
+  
+  .swiper-slide{
+    width: 60%;
+  }
+
+  .mySwiper {
+    width: 100%;
+  }
+  
+  /* Styles for TestCard */
+  .gameBox {
+    margin: 0 auto; /* Center the TestCard */
+  }
+  
+  /* Media query for smaller screens */
+  @media (max-width: 768px) {
+    /* Adjustments for smaller screens */
+    .mySwiper {
+      width: 90%; /* Adjust the width as needed */
+    }
+  
+    /* Styles for TestCard on smaller screens */
+    .gameBox {
+      margin: 0 auto;
+    }
+  }

@@ -1,20 +1,19 @@
 .home_img{
-    height: 500px;
-    width: 500px; 
-    border-radius: 50%;
-    object-fit: fill;
- }
- .about_img{
-    height: 590px;
-    width: 550px; 
-    border-radius: 10%;
-    object-fit: cover;
- }
- 
- 
- @media (max-width: 600px) {
-    .home_img {
-       height: 300px; /* Adjust the height for smaller screens */
-       width: 300px; /* Adjust the width for smaller screens */
-    }
- }
+   height: 500px;
+   width: 500px; 
+   border-radius: 50%;
+   object-fit: fill;
+}
+.about_img{
+   height: 590px;
+   width: 550px; 
+   border-radius: 10%;
+   object-fit: cover;
+}
+
+@media (max-width: 600px) {
+   .home_img {
+      height: 300px; /* Adjust the height for smaller screens */
+      width: 300px; /* Adjust the width for smaller screens */
+   }
+}
