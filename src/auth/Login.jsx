@@ -30,7 +30,7 @@ const LoginCard = () =>{
     return(
         <Card maxW='lg' bg='rgba(0, 28, 28, 0.9)' color={'white'}>
                 <CardBody>
-                    <Heading >Welcome back Learnr</Heading>
+                    <Heading >Welcome back Richies</Heading>
                     <Stack mt='6' spacing='3'>
                         <form onSubmit={submitHandler}>
                             <FormLabel htmlFor='email' children="Email Address" />
